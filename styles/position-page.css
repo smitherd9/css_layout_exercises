@@ -24,19 +24,20 @@ nav img {
 	
 }
 
-ul {	
-	position: absolute;
+ul.links {	
+	
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	padding-left: 60px;
 	padding-right: 60px;
+	float: right;
+	margin-top: 40px;
 
 }
 
-li {
+ul.links li {
 	display: inline;
 	border-right: 1px black solid;
+	padding-right: 5px;
 	
 	
 }
@@ -59,6 +60,7 @@ li {
 	height: 200px;
 	position: absolute;
 	right: 500px;
+	top: -103px;
 
 }
 
@@ -66,7 +68,8 @@ li {
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	left: 500px
+	left: 500px;
+	bottom: -80px;
 
 }
 
